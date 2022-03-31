@@ -3,6 +3,7 @@
      <title>my DCI webpage</title>
      <meta name="description" content="my first dci webpage">
      <meta name="keywords" content="html DCI in python course">
+     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1> Welcome to Billy’s page </h1>
@@ -23,7 +24,7 @@
     </section>
     <section>
          <h2> My Next Holidays </h2>
-         <table border="solid"> 
+         <table class="styled-table""> 
            <thead>
              <tr>
               <th>Activity</th>
@@ -31,20 +32,20 @@
              </tr>
            </thead>
           <tbody>
-            <tr>
+            <tr class="active-row">
              <td>AUSTRALIA</td>
              <td>4800$</td>
             </tr>
-            <tr>
+            <tr class="active-row">
              <td>THAILAND</td>
              <td>2500$</td>
             </tr>
            </tbody> 
           </table>
     </section><br><br>
-    <section>
+    <section class="me">
      
-      <form action="/action_page.php" method="get">
+      <form action="mailto:"bilelbibou2015@gmail.com">
         <label for="fname">First name:</label>
         <input type="text" name="fname"><br><br>
         <label for="lname">Last name:</label>
